@@ -1,0 +1,50 @@
+Name,Definition
+application_key,Application ID (primary key)
+mvar1,Credit worthiness score calculated on the basis of borrower's credit history
+mvar2,A score calculated based on the number and riskiness of credit enquiries made to any lender by a borrower
+mvar3,"Severity of default by the borrower on any loan(s). Severity is a function of amount, time since default and number of defaults"
+mvar4,"Severity of default by the borrower on auto loan(s). Severity is a function of amount, time since default and number of defaults"
+mvar5,"Severity of default by the borrower on education loan(s). Severity is a function of amount, time since default and number of defaults"
+mvar6,Minimum of credit available on all revolving credit cards (in $)
+mvar7,Maximum of credit available on all active credit lines (in $)
+mvar8,Maximum of credit available on all active revolving credit cards (in $)
+mvar9,Sum of available credit on credit cards that the borrower has missed 1 payment (in $)
+mvar10,Total amount of credit available on accepted credit lines (in $)
+mvar11,Amount of dues collected post default where due amount was more than 500 (in $)
+mvar12,Sum of amount due on active credit cards (in $)
+mvar13,Annual amount paid towards all credit cards during the previous year (in $)
+mvar14,Annual income (in $)
+mvar15,Estimated market value of a properety owned/used by the borrower (in $)
+mvar16,Number of active revolving credit cards on which full credit limit is utilized by the borrower
+mvar17,Number of active credit cards on which full credit limit is utilized by the borrower
+mvar18,Number of active credit lines on which full credit limit is utilized by the borrower
+mvar19,Number of active credit cards on which atleast 75% credit limit is utilized by the borrower
+mvar20,Number of active credit lines on which atleast 75% credit limit is utilized by the borrower
+mvar21,Average utilization of active revolving credit card loans (%)
+mvar22,Average utilization of line on all active credit lines activated in last 2 years (%)
+mvar23,Average utilization of line on all active credit cards activated in last 1 year (%)
+mvar24,Average utilization of line on credit cards on which the borrower has missed 1 payment during last 6 months (%)
+mvar25,Average tenure of active revolving credit cards (in days)
+mvar26,Tenure of oldest credit card among all active credit cards (in days)
+mvar27,Tenure of oldest revolving credit card among all active revolving credit cards (in days)
+mvar28,Number of days since last missed payment on any credit line
+mvar29,Tenure of oldest credit line (in days)
+mvar30,Maximum tenure on all auto loans (in days)
+mvar31,Maximum tenure on all education loans (in days)
+mvar32,Sum of tenures (in months) of active credit cards
+mvar33,Duration of stay at the current residential address (in years)
+mvar34,Number of active credit lines over the last 6 months on which the borrower has missed 1 payment
+mvar35,Number of revolving credit cards over the last 2 years on which the borrower has missed 1 payment
+mvar36,Number of active credit lines
+mvar37,Number of credit cards with an active tenure of at least 2 years
+mvar38,Number of credit lines activated in last 2 years
+mvar39,Number of credit lines on which the borrower has current delinquency
+mvar40,Utilization of line on active education loans (%)
+mvar41,Utilization of line on active auto loans (%)
+mvar42,"Financial stress index of the borrower. This index is a function of collection trades, bankruptcies files, tax liens invoked, etc. "
+mvar43,"Number of credit lines on which the borrower has never missed a payment in last 2 yrs, yet considered as high risk loans based on market prediction of economic scenario"
+mvar44,Ratio of maximum amount due on all active credit lines and sum of amounts due on all active credit lines 
+mvar45,Number of mortgage loans on which the borrower has missed 2 payments
+mvar46,Number of auto loans on which the borrower has missed 2 payments
+mvar47,Type of product that the applicant applied for. (C = Charge; L = Lending)
+default_ind,Indicator for default
