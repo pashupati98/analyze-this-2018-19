@@ -55,7 +55,7 @@ org_train.drop([KEY], axis = 1, inplace = True)
 org_test.drop([KEY], axis = 1, inplace = True)
 
 ######################################################################################################
-# In this block I implemented KNN, the code is note properly arranged and commented in this block
+
 """Impute missing values with k nearest classifier."""
 import sys
 import numpy as np
@@ -215,7 +215,6 @@ org_test = tryout[train_len:]
 
 ######################################################################################################
 
-# Save the train attributes and labels in separate variables for applying GBM
 
 X = org_train.ix[:, org_train.columns != LABEL]
 y = org_train.ix[:, org_train.columns == LABEL]
@@ -275,16 +274,5 @@ y_pred = [x / 20 for x in y_pred]
 
 
 
-# Submission File Creation
-threshold = 0.85
-
-y_binary = [0]*len(y_pred)
-for i, val in enumerate(y_pred):
-    if val>threshold:
-        y_binary[i] = 1
-submission = pd.DataFrame(list(zip(key,y_binary,y_pred)))
-submission = submission.sort_values(submission.columns[-1])
-submission = submission.drop([submission.columns[-1]], axis=1)
-submission.to_csv("TheWing_IITKGP.csv",  index=False)
 
 
